@@ -1,0 +1,37 @@
+.cardPlat{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 340px;
+  min-height: 600px;
+  max-height: 800px;
+  background-color: var(--grey);
+  border-radius: 8px;
+  border: 2px solid var(--orange);
+  margin-bottom: 20px;
+
+  h3, p{
+    padding: 20px;
+    text-align: center;
+  }
+
+  p{
+    font-size: 12px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 14;
+    overflow: hidden;
+  }
+
+  span{
+    padding-bottom: 20px
+  }
+
+  img{
+    border-radius: 8px;
+    image-rendering: smooth;
+    image-resolution: snap;
+    height: 240px;
+    width: 285px;
+  }
+}

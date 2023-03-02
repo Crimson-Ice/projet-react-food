@@ -1,0 +1,22 @@
+:root{
+  --backgroundColor: #1D1D1D;
+  --violet: #4B0082;
+  --orange: #df7700;
+  --grey: #2B2B2B;
+  --white: #fff
+}
+
+$font: "Roboto", sans-serif;
+$colorFont: #fff;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: $font;
+  background-color: var(--backgroundColor);
+  color: $colorFont;
+}

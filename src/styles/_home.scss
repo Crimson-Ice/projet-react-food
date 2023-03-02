@@ -1,0 +1,49 @@
+.containerHome{
+  height: 100%;
+  width: 100%;
+
+  .headerPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+
+    .border-title{
+      background: linear-gradient(-25deg, var(--violet), var(--orange));
+      animation: anime 2s ease infinite;
+      background-size: 300% 300%;
+      transition: background 1s ease-out;
+      padding: 5px;
+      margin-bottom: 50px
+    }
+
+    @keyframes anime {
+      0%{background-position:50% 0}
+      50%{background-position:50% 100%}
+      100%{background-position:50% 0}
+    }
+
+    h1{
+      background: var(--backgroundColor);
+      padding: 6px;
+    }
+
+    input{
+      border: 2px solid var(--orange);
+      border-radius: 8px;
+      background-color: var(--grey);
+      height: 40px;
+      width: 300px;
+      padding: 3px 0 3px 10px;
+      color: var(--white);
+    }
+  }
+
+  .plat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px;
+  }
+}
